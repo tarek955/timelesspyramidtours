@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Tours | Timeless Pyramid Tours</title>
+    <meta name="description" content="Explore our curated Egypt tours: Pyramids of Giza, Luxor, Abu Simbel, Nile Cruises, Desert Safari & more. Best prices guaranteed.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="images/logo_timeless_pyramids.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo_timeless_pyramids.jpg" alt="Timeless Pyramid Tours Logo">
+                <span class="logo-text">Timeless Pyramid Tours</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tours.html" class="active">Tours</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active">EN</button>
+                <button class="lang-btn">ES</button>
+                <button class="lang-btn">JP</button>
+                <button class="lang-btn">IT</button>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Tours Hero -->
+    <section class="about-hero">
+        <h1>Our Egypt Tours</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+            Handcrafted experiences for every type of traveler
+        </p>
+    </section>
+
+    <!-- All Tours -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Popular Experiences</h2>
+            <p>Choose from our most loved tours, all with expert guides and premium service</p>
+        </div>
+        <div class="tours-grid">
+            <!-- Tour 1 -->
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="images/tour_group_pyramids_flag.jpg" alt="Pyramids of Giza">
+                    <span class="tour-badge">Most Popular</span>
+                </div>
+                <div class="tour-content">
+                    <h3>Pyramids of Giza & Sphinx</h3>
+                    <p>Half-day tour to the last remaining wonder of the ancient world. Includes Great Pyramid, Sphinx, and Valley Temple.</p>
+                    <ul class="tour-features">
+                        <li>Licensed Egyptologist guide</li>
+                        <li>Hotel pickup & drop-off</li>
+                        <li>Entry tickets included</li>
+                        <li>Camel ride option available</li>
+                        <li>Small group (max 12)</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <span class="tour-price">$89<span>/person</span></span>
+                        <a href="contact.html?tour=pyramids" class="btn btn-primary" style="padding: 10px 25px;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 2 -->
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="images/tour_camel_line.jpg" alt="Luxor and Valley of Kings">
+                    <span class="tour-badge">Premium</span>
+                </div>
+                <div class="tour-content">
+                    <h3>Luxor & Valley of the Kings</h3>
+                    <p>Full-day adventure to the world's greatest open-air museum. Round-trip domestic flights from Cairo included.</p>
+                    <ul class="tour-features">
+                        <li>Round-trip flights included</li>
+                        <li>Valley of the Kings (3 tombs)</li>
+                        <li>Temple of Hatshepsut</li>
+                        <li>Karnak Temple complex</li>
+                        <li>Lunch at local restaurant</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <span class="tour-price">$299<span>/person</span></span>
+                        <a href="contact.html?tour=luxor" class="btn btn-primary" style="padding: 10px 25px;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 3 -->
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="images/tour_group_qaitbay.jpg" alt="Abu Simbel">
+                    <span class="tour-badge">Must See</span>
+                </div>
+                <div class="tour-content">
+                    <h3>Abu Simbel Temples</h3>
+                    <p>Visit the magnificent temples of Ramses II and Nefertari. Optional sunrise or sunset visit available.</p>
+                    <ul class="tour-features">
+                        <li>Round-trip flights included</li>
+                        <li>Expert guide at site</li>
+                        <li>Sound & Light show option</li>
+                        <li>Hotel transfers</li>
+                        <li>Breakfast box provided</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <span class="tour-price">$199<span>/person</span></span>
+                        <a href="contact.html?tour=abusimbel" class="btn btn-primary" style="padding: 10px 25px;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 4 -->
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="images/tour_group_museum.jpg" alt="Egyptian Museum">
+                    <span class="tour-badge">Best Value</span>
+                </div>
+                <div class="tour-content">
+                    <h3>Egyptian Museum & Old Cairo</h3>
+                    <p>Discover treasures of Tutankhamun and explore the historic streets of Islamic and Coptic Cairo.</p>
+                    <ul class="tour-features">
+                        <li>Museum entry included</li>
+                        <li>Tutankhamun collection</li>
+                        <li>Old Cairo walking tour</li>
+                        <li>Khan El Khalili bazaar</li>
+                        <li>Traditional lunch included</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <span class="tour-price">$59<span>/person</span></span>
+                        <a href="contact.html?tour=museum" class="btn btn-primary" style="padding: 10px 25px;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 5 -->
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="images/tour_camel_ride.jpg" alt="Sahara Desert Safari">
+                    <span class="tour-badge">Adventure</span>
+                </div>
+                <div class="tour-content">
+                    <h3>Sahara Desert Safari</h3>
+                    <p>Thrilling 4x4 desert adventure with Bedouin dinner under the stars. Perfect for adventure seekers.</p>
+                    <ul class="tour-features">
+                        <li>4x4 jeep safari</li>
+                        <li>Sandboarding experience</li>
+                        <li>Bedouin camp visit</li>
+                        <li>Traditional BBQ dinner</li>
+                        <li>Stargazing with telescope</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <span class="tour-price">$129<span>/person</span></span>
+                        <a href="contact.html?tour=safari" class="btn btn-primary" style="padding: 10px 25px;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour 6 -->
+            <div class="tour-card">
+                <div class="tour-image">
+                    <img src="images/tour_group_pyramids_sign.jpg" alt="Nile Cruise">
+                    <span class="tour-badge">Luxury</span>
+                </div>
+                <div class="tour-content">
+                    <h3>Nile Cruise: Cairo to Aswan</h3>
+                    <p>5-day luxury cruise along the Nile. Visit Edfu, Kom Ombo, and Aswan in ultimate comfort.</p>
+                    <ul class="tour-features">
+                        <li>5-star cruise ship</li>
+                        <li>Full board meals</li>
+                        <li>All excursions included</li>
+                        <li>Edfu & Kom Ombo temples</li>
+                        <li>Aswan & Philae Temple</li>
+                    </ul>
+                    <div class="tour-footer">
+                        <span class="tour-price">$899<span>/person</span></span>
+                        <a href="contact.html?tour=nile" class="btn btn-primary" style="padding: 10px 25px;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" style="background: var(--secondary-dark);">
+        <div class="section-title">
+            <h2>Tour Gallery</h2>
+            <p>Real moments from our actual tours</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/tour_girl_pyramids.jpg" alt="Traveler at Pyramids">
+                <div class="gallery-overlay"><p>Young traveler at Giza</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_family_saqqara.jpg" alt="Family at Saqqara">
+                <div class="gallery-overlay"><p>Family at Step Pyramid</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_girl_columns.jpg" alt="Girl at columns">
+                <div class="gallery-overlay"><p>Exploring ancient columns</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_girl_folklore.jpg" alt="Folklore show">
+                <div class="gallery-overlay"><p>Traditional folklore show</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_family_ruins.jpg" alt="Family at ruins">
+                <div class="gallery-overlay"><p>Family at ancient ruins</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_girl_hieroglyphs.jpg" alt="Girl with hieroglyphs">
+                <div class="gallery-overlay"><p>Learning hieroglyphics</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_inside_pyramid.jpg" alt="Inside pyramid">
+                <div class="gallery-overlay"><p>Inside the Great Pyramid</p></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/tour_woman_pyramid_touch.jpg" alt="Creative photo">
+                <div class="gallery-overlay"><p>Creative pyramid photos</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Tours -->
+    <section class="section" style="text-align: center;">
+        <div class="section-title">
+            <h2>Need a Custom Tour?</h2>
+            <p>We can create a personalized itinerary just for you</p>
+        </div>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 30px;">
+            Whether you're traveling solo, with family, or in a large group, we can design the perfect Egyptian experience 
+            tailored to your interests, budget, and schedule.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Request Custom Tour</a>
+        <p style="margin-top: 20px; color: var(--text-muted);">
+            Or WhatsApp us: <a href="https://wa.me/201558926482" style="color: var(--accent-gold);">+20 155 892 6482</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>Timeless Pyramid Tours</h4>
+                <p>Your trusted partner for unforgettable Egyptian experiences since 2009.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61564199498383" target="_blank" title="Facebook">f</a>
+                    <a href="https://www.instagram.com/timelesspyramidstours?igsh=Zmo0ZG16YzVvM2xn" target="_blank" title="Instagram">📷</a>
+                    <a href="#" title="TripAdvisor">⭐</a>
+                    <a href="https://wa.me/201558926482" title="WhatsApp">📱</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tours.html">Our Tours</a></li>
+                    <li><a href="articles.html">Travel Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>📍 <a href="https://maps.app.goo.gl/3mHzfvcvcKHvf6ee9?g_st=awb" target="_blank">Cairo, Egypt</a></p>
+                <p>📱 <a href="https://wa.me/201558926482">+20 155 892 6482</a></p>
+                <p>✉️ <a href="mailto:timelesspyramidstours@gmail.com">timelesspyramidstours@gmail.com</a></p>
+                <p>🕐 Sun - Sat: 8:00 AM - 10:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h4>Popular Tours</h4>
+                <ul>
+                    <li><a href="tours.html">Pyramids of Giza</a></li>
+                    <li><a href="tours.html">Luxor & Valley of Kings</a></li>
+                    <li><a href="tours.html">Abu Simbel</a></li>
+                    <li><a href="tours.html">Nile Cruise</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Timeless Pyramid Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

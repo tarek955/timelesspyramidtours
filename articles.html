@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Articles | Timeless Pyramid Tours</title>
+    <meta name="description" content="Read our Egypt travel guides, tips, and stories. Expert advice for your Egyptian adventure from the team at Timeless Pyramid Tours.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="images/logo_timeless_pyramids.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo_timeless_pyramids.jpg" alt="Timeless Pyramid Tours Logo">
+                <span class="logo-text">Timeless Pyramid Tours</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="articles.html" class="active">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active">EN</button>
+                <button class="lang-btn">ES</button>
+                <button class="lang-btn">JP</button>
+                <button class="lang-btn">IT</button>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Articles Hero -->
+    <section class="about-hero">
+        <h1>Travel Articles & Guides</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+            Expert tips, travel stories, and insider knowledge from our Egyptologists
+        </p>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="section" style="background: var(--secondary-dark);">
+        <div class="section-title">
+            <h2>Featured Article</h2>
+        </div>
+        <div class="article-card" style="max-width: 900px; margin: 0 auto;">
+            <div class="article-image" style="height: 300px;">
+                <img src="images/tour_group_pyramids_flag.jpg" alt="Best time to visit Egypt">
+            </div>
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>📅 May 2026</span>
+                    <span>👤 Dr. Ahmed Hassan</span>
+                    <span>🏷️ Travel Tips</span>
+                </div>
+                <h3>The Best Time to Visit Egypt: A Complete Seasonal Guide</h3>
+                <p>
+                    Egypt is a year-round destination, but each season offers a unique experience. 
+                    From the cool winter months perfect for exploring the Pyramids to the warm summer evenings 
+                    ideal for Nile cruises, our Egyptologist guide breaks down what to expect each month...
+                </p>
+                <a href="#" class="read-more">Read Full Article →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Articles -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Latest Articles</h2>
+            <p>Insights and stories to inspire your Egyptian journey</p>
+        </div>
+        <div class="articles-grid">
+            <!-- Article 1 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_girl_pyramids.jpg" alt="Traveling with kids in Egypt">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 April 2026</span>
+                        <span>🏷️ Family Travel</span>
+                    </div>
+                    <h3>Egypt with Kids: A Family-Friendly Guide</h3>
+                    <p>
+                        Discover how to make your Egyptian family vacation unforgettable. 
+                        From camel rides at Giza to interactive museum experiences, we share our top tips...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_camel_line.jpg" alt="Camel ride tips">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 April 2026</span>
+                        <span>🏷️ Experiences</span>
+                    </div>
+                    <h3>Your First Camel Ride: What to Expect at the Pyramids</h3>
+                    <p>
+                        Riding a camel at the Pyramids is a bucket-list experience. 
+                        Learn what to wear, how to negotiate, safety tips, and the best photo spots...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_group_museum.jpg" alt="Egyptian Museum guide">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 March 2026</span>
+                        <span>🏷️ Museums</span>
+                    </div>
+                    <h3>Egyptian Museum: 10 Artifacts You Cannot Miss</h3>
+                    <p>
+                        The Egyptian Museum in Cairo houses over 120,000 artifacts. 
+                        Our Egyptologist reveals the top 10 pieces that tell the story of ancient Egypt...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 4 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_group_qaitbay.jpg" alt="Alexandria day trip">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 March 2026</span>
+                        <span>🏷️ Day Trips</span>
+                    </div>
+                    <h3>Alexandria Day Trip: Mediterranean Magic</h3>
+                    <p>
+                        Just 2.5 hours from Cairo, Alexandria offers a completely different side of Egypt. 
+                        From the Qaitbay Citadel to the Bibliotheca Alexandrina, explore this coastal gem...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 5 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_mosque_family.jpg" alt="Islamic Cairo">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 February 2026</span>
+                        <span>🏷️ Culture</span>
+                    </div>
+                    <h3>Islamic Cairo: A Walking Tour Through History</h3>
+                    <p>
+                        Step back in time as you walk through the narrow streets of Islamic Cairo. 
+                        Discover mosques, madrasas, and markets that have stood for over 1,000 years...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 6 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_camel_ride.jpg" alt="Desert safari">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 February 2026</span>
+                        <span>🏷️ Adventure</span>
+                    </div>
+                    <h3>Sahara Desert Safari: A Night Under the Stars</h3>
+                    <p>
+                        Experience the magic of the Egyptian desert at night. 
+                        From dune bashing to Bedouin dinners, discover why our desert safari is a traveler favorite...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 7 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_woman_pyramid_touch.jpg" alt="Photography tips">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 January 2026</span>
+                        <span>🏷️ Photography</span>
+                    </div>
+                    <h3>Photography at the Pyramids: Tips from the Pros</h3>
+                    <p>
+                        Get that perfect shot! Our guide shares the best angles, times of day, 
+                        and creative poses for unforgettable pyramid photos...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 8 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_dinner_group.jpg" alt="Egyptian food">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 January 2026</span>
+                        <span>🏷️ Food & Dining</span>
+                    </div>
+                    <h3>Egyptian Cuisine: 10 Dishes Every Traveler Must Try</h3>
+                    <p>
+                        From koshari to molokhia, Egyptian food is a delicious journey. 
+                        Discover the must-try dishes and where to find the best local restaurants...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Article 9 -->
+            <div class="article-card">
+                <div class="article-image">
+                    <img src="images/tour_inside_pyramid.jpg" alt="Inside pyramid">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span>📅 December 2025</span>
+                        <span>🏷️ History</span>
+                    </div>
+                    <h3>Inside the Great Pyramid: What You Need to Know</h3>
+                    <p>
+                        Climbing inside the Great Pyramid is a unique experience. 
+                        Learn about the King's Chamber, the Grand Gallery, and what to expect inside...
+                    </p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section" style="background: var(--secondary-dark); text-align: center;">
+        <div class="section-title">
+            <h2>Stay Updated</h2>
+            <p>Get the latest Egypt travel tips and exclusive offers</p>
+        </div>
+        <form style="max-width: 500px; margin: 0 auto;">
+            <div style="display: flex; gap: 10px;">
+                <input type="email" placeholder="Your email address" style="flex: 1; padding: 15px; border-radius: 50px; border: 1px solid var(--accent-gold); background: var(--primary-dark); color: var(--text-light);">
+                <button type="submit" class="btn btn-primary" style="border-radius: 50px;">Subscribe</button>
+            </div>
+        </form>
+        <p style="margin-top: 20px; color: var(--text-muted); font-size: 0.9rem;">
+            Join 5,000+ travelers who receive our monthly Egypt travel newsletter
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>Timeless Pyramid Tours</h4>
+                <p>Your trusted partner for unforgettable Egyptian experiences since 2009.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61564199498383" target="_blank" title="Facebook">f</a>
+                    <a href="https://www.instagram.com/timelesspyramidstours?igsh=Zmo0ZG16YzVvM2xn" target="_blank" title="Instagram">📷</a>
+                    <a href="#" title="TripAdvisor">⭐</a>
+                    <a href="https://wa.me/201558926482" title="WhatsApp">📱</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tours.html">Our Tours</a></li>
+                    <li><a href="articles.html">Travel Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>📍 <a href="https://maps.app.goo.gl/3mHzfvcvcKHvf6ee9?g_st=awb" target="_blank">Cairo, Egypt</a></p>
+                <p>📱 <a href="https://wa.me/201558926482">+20 155 892 6482</a></p>
+                <p>✉️ <a href="mailto:timelesspyramidstours@gmail.com">timelesspyramidstours@gmail.com</a></p>
+                <p>🕐 Sun - Sat: 8:00 AM - 10:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h4>Popular Tours</h4>
+                <ul>
+                    <li><a href="tours.html">Pyramids of Giza</a></li>
+                    <li><a href="tours.html">Luxor & Valley of Kings</a></li>
+                    <li><a href="tours.html">Abu Simbel</a></li>
+                    <li><a href="tours.html">Nile Cruise</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Timeless Pyramid Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

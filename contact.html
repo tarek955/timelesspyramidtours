@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Timeless Pyramid Tours</title>
+    <meta name="description" content="Contact Timeless Pyramid Tours for bookings and inquiries. WhatsApp +20 155 892 6482 or email timelesspyramidstours@gmail.com">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="images/logo_timeless_pyramids.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo_timeless_pyramids.jpg" alt="Timeless Pyramid Tours Logo">
+                <span class="logo-text">Timeless Pyramid Tours</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active">EN</button>
+                <button class="lang-btn">ES</button>
+                <button class="lang-btn">JP</button>
+                <button class="lang-btn">IT</button>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="about-hero">
+        <h1>Contact Us</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+            Ready to explore Egypt? We're here to help plan your perfect trip
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="contact-grid">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+
+                <div class="contact-item">
+                    <span style="font-size: 1.5rem;">📍</span>
+                    <div>
+                        <h4>Address</h4>
+                        <p><a href="https://maps.app.goo.gl/3mHzfvcvcKHvf6ee9?g_st=awb" target="_blank">Cairo, Egypt - View on Google Maps</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span style="font-size: 1.5rem;">📱</span>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p><a href="https://wa.me/201558926482" target="_blank">+20 155 892 6482</a></p>
+                        <p style="font-size: 0.85rem; margin-top: 5px;">Fastest response - available 24/7</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span style="font-size: 1.5rem;">✉️</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:timelesspyramidstours@gmail.com">timelesspyramidstours@gmail.com</a></p>
+                        <p style="font-size: 0.85rem; margin-top: 5px;">We reply within 24 hours</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span style="font-size: 1.5rem;">🕐</span>
+                    <div>
+                        <h4>Working Hours</h4>
+                        <p>Sunday - Saturday: 8:00 AM - 10:00 PM</p>
+                        <p style="font-size: 0.85rem; margin-top: 5px;">Egypt Time (GMT+2)</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span style="font-size: 1.5rem;">📘</span>
+                    <div>
+                        <h4>Facebook</h4>
+                        <p><a href="https://www.facebook.com/profile.php?id=61564199498383" target="_blank">Timeless Pyramid Tours</a></p>
+                        <p style="font-size: 0.85rem; margin-top: 5px;">Follow us for updates & photos</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px; padding: 25px; background: var(--secondary-dark); border-radius: var(--border-radius); border: 1px solid rgba(201, 168, 76, 0.2);">
+                    <h4 style="color: var(--accent-gold); margin-bottom: 15px;">Quick Contact</h4>
+                    <p style="color: var(--text-muted); margin-bottom: 15px;">
+                        Have a quick question? Message us directly on WhatsApp for instant replies.
+                    </p>
+                    <a href="https://wa.me/201558926482" class="whatsapp-btn" target="_blank">
+                        <span>💬</span> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3 style="color: var(--accent-gold); margin-bottom: 25px;">Send Us a Message</h3>
+                <form action="mailto:timelesspyramidstours@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" name="name" required placeholder="Your full name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>WhatsApp / Phone</label>
+                        <input type="tel" name="phone" placeholder="+1 234 567 8900">
+                    </div>
+                    <div class="form-group">
+                        <label>Interested Tour</label>
+                        <select name="tour">
+                            <option value="">Select a tour...</option>
+                            <option value="pyramids">Pyramids of Giza & Sphinx</option>
+                            <option value="luxor">Luxor & Valley of Kings</option>
+                            <option value="abusimbel">Abu Simbel Temples</option>
+                            <option value="museum">Egyptian Museum & Old Cairo</option>
+                            <option value="safari">Sahara Desert Safari</option>
+                            <option value="nile">Nile Cruise Cairo to Aswan</option>
+                            <option value="custom">Custom Tour Request</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Date</label>
+                        <input type="date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label>Number of Travelers</label>
+                        <input type="number" name="travelers" min="1" placeholder="How many people?">
+                    </div>
+                    <div class="form-group">
+                        <label>Message *</label>
+                        <textarea name="message" required placeholder="Tell us about your trip plans, questions, or special requests..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+                <p style="margin-top: 15px; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+                    Or email us directly at <a href="mailto:timelesspyramidstours@gmail.com" style="color: var(--accent-gold);">timelesspyramidstours@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section" style="padding-top: 0;">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.0123456789!2d31.2357!3d30.0444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzQwLjAiTiAzMcKwMTQnMDguNSJF!5e0!3m2!1sen!2seg!4v1234567890" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        <div style="text-align: center; margin-top: 15px;">
+            <a href="https://maps.app.goo.gl/3mHzfvcvcKHvf6ee9?g_st=awb" target="_blank" class="btn btn-outline" style="margin: 0;">
+                📍 Open in Google Maps
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" style="background: var(--secondary-dark);">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers to common questions</p>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div style="margin-bottom: 25px; padding: 20px; background: var(--primary-dark); border-radius: var(--border-radius); border-left: 3px solid var(--accent-gold);">
+                <h4 style="color: var(--accent-gold); margin-bottom: 10px;">How do I book a tour?</h4>
+                <p style="color: var(--text-muted);">Simply fill out the form above, WhatsApp us at +20 155 892 6482, or email timelesspyramidstours@gmail.com. We'll confirm availability within 24 hours.</p>
+            </div>
+            <div style="margin-bottom: 25px; padding: 20px; background: var(--primary-dark); border-radius: var(--border-radius); border-left: 3px solid var(--accent-gold);">
+                <h4 style="color: var(--accent-gold); margin-bottom: 10px;">What payment methods do you accept?</h4>
+                <p style="color: var(--text-muted);">We accept cash (USD, EUR, EGP), credit cards, PayPal, and bank transfers. A 20% deposit secures your booking.</p>
+            </div>
+            <div style="margin-bottom: 25px; padding: 20px; background: var(--primary-dark); border-radius: var(--border-radius); border-left: 3px solid var(--accent-gold);">
+                <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Can I customize my tour?</h4>
+                <p style="color: var(--text-muted);">Absolutely! We specialize in custom itineraries. Contact us with your preferences and we'll design your perfect Egyptian adventure.</p>
+            </div>
+            <div style="margin-bottom: 25px; padding: 20px; background: var(--primary-dark); border-radius: var(--border-radius); border-left: 3px solid var(--accent-gold);">
+                <h4 style="color: var(--accent-gold); margin-bottom: 10px;">What's your cancellation policy?</h4>
+                <p style="color: var(--text-muted);">Free cancellation up to 48 hours before the tour. Within 48 hours, we offer rescheduling or a partial refund.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>Timeless Pyramid Tours</h4>
+                <p>Your trusted partner for unforgettable Egyptian experiences since 2009.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61564199498383" target="_blank" title="Facebook">f</a>
+                    <a href="https://www.instagram.com/timelesspyramidstours?igsh=Zmo0ZG16YzVvM2xn" target="_blank" title="Instagram">📷</a>
+                    <a href="#" title="TripAdvisor">⭐</a>
+                    <a href="https://wa.me/201558926482" title="WhatsApp">📱</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tours.html">Our Tours</a></li>
+                    <li><a href="articles.html">Travel Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>📍 <a href="https://maps.app.goo.gl/3mHzfvcvcKHvf6ee9?g_st=awb" target="_blank">Cairo, Egypt</a></p>
+                <p>📱 <a href="https://wa.me/201558926482">+20 155 892 6482</a></p>
+                <p>✉️ <a href="mailto:timelesspyramidstours@gmail.com">timelesspyramidstours@gmail.com</a></p>
+                <p>🕐 Sun - Sat: 8:00 AM - 10:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h4>Popular Tours</h4>
+                <ul>
+                    <li><a href="tours.html">Pyramids of Giza</a></li>
+                    <li><a href="tours.html">Luxor & Valley of Kings</a></li>
+                    <li><a href="tours.html">Abu Simbel</a></li>
+                    <li><a href="tours.html">Nile Cruise</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Timeless Pyramid Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
